@@ -1,6 +1,12 @@
 class Shoe
   attr_accessor :color, :size, :material, :condition
-  attr_reader :brands
+  
+  
+  
+  
+  def brands(brands)
+    @brands = brands
+  end 
   
   
   
