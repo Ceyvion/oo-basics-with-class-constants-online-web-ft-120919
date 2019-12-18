@@ -6,7 +6,7 @@ class Shoe
   
   
   
-  def brands=(brand)
+  def brand=(brand)
     @brand = brand 
     BRANDS << brand
   end 
